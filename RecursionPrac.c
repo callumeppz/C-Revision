@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-int Factorial (int n);
+int n;
+
+int factorial(int n);
 
 int main () {
-    int number;
-    printf ("add a number");
-    scanf ("%d", &number);
+    printf ("enter a factorial");
+    scanf ("%d", &n);
 
-    printf("\nFactorial is : %d", Factorial(number));
+    printf ("%d", factorial(n));
 }
 
-int Factorial (int n) {
-    if (n > 0) {
-        return n * Factorial(n-1);
+int factorial (int n) {
+    if (n > 0){
+    return n * factorial(n-1);
     }
     else {
         return 1;
     }
-
 }
