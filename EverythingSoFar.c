@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 // goes over everything weve coverered so far, aswell as a function to calculate multiplication without the * operator
-// makes use of recurssion to solve the issue
+// makes use of recurssion to solve the issue, and loops through untill num2 is complete
 
 int multiplication(int num1, int num2);
 
