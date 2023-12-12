@@ -17,10 +17,10 @@ int main() {
     int result = string1 - string2;
 
     if (string1 > string2) {
-        printf ("\nString one is bigger: %sby: %d\n", str1, result);
+        printf ("\nString one is cooler: %sby: %d\n", str1, result);
     }
     else {
-        printf ("\nString two is bigger: %s", str2);
+        printf ("\nString two is cooler: %s", str2);
     }
 
     strcat(str1, str2);
