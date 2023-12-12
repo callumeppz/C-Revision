@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <math.h>
 
 int multiplyNums(int num1, int num2);
 
 int main() {
     char oper;
     int result;
+    int sqrnum = 5;
 
     char str[20];
 
@@ -14,6 +16,10 @@ int main() {
     str[2] = 'X';
 
     printf ("%s", str);
+
+    int sqrnumPow = sqrt(sqrnum);
+    int powerNum = pow(sqrnum, sqrnumPow);
+    printf ("%d", powerNum);
 
     printf("enter an operator you would like to use for calculation: '+' '-' '*' '/'\n");
     scanf("%c", &oper);
